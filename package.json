@@ -15,8 +15,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "**.{js,css,md,json,svg}": "prettier --write",
-    "*/*.{ts,tsx}": "prettier --write"
+    "**/*.{ts,tsx,js,css,md,json,svg}": "prettier --write"
   },
   "dependencies": {
     "react": "^17.0.0",
